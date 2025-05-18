@@ -2,14 +2,13 @@
 
 Welcome to my professional portfolio website! This project showcases my skills, projects, and personal brand as a full-stack developer with a focus on modern web technologies and immersive user experiences.
 
-![Hero Screenshot](./screenshots/hero-section.png)
+![Hero Screenshot](public/hero.png)
 
 ---
 
 ## 🌐 Live Website
 
-🔗 [Visit the live site](https://your-custom-domain.dev)  
-(Replace with your actual domain or Vercel/Netlify/GitHub link)
+🔗 [Preet Biswas Portfolio](https://preet-biswas.vercel.app/) 
 
 ---
 

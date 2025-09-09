@@ -15,7 +15,7 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Member in Designix</h4>
+                <h4> Member in Designix</h4>
                 <h5>Galgotias University</h5>
               </div>
               <h3>2025</h3>
@@ -28,13 +28,13 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>CEO and founder of Cypher</h4>
-                <h5>Cypher</h5>
+                <h4>Developed Luma and Quide </h4>
+                <h5>Quide</h5>
               </div>
               <h3>2025</h3>
             </div>
             <p>
-              Cypher is a Saas Platform that uses Electron JS to create a custom ai assistant without being in the website.It is a desktop application that is used on the screen with Electron JS and is click through to teh website.
+              Luma and Quide are both electron based windows app with mac and linux packages enabled but not developed.Each of them is powered by Gemini that is on top of the window letting u have your best time coding and debugging silently with bypassing sandboxing for web apps and also running in without console in case of desktop apps
             </p>
           </div>
           <div className="career-info-box">

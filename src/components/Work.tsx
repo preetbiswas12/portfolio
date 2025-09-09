@@ -45,7 +45,25 @@ const projects = [
     description: "A personal stunning 3D portfolio showcasing my work and skills.",
     image: "/image/portfolio.png",
     video: "blog.mp4",
-    link: "/",
+    link: "https://preetbiswas.vercel.app",
+  },
+    {
+    title: "Luma",
+    category: "Software Application",
+    features: "Electron, Vite, Typescript, Tailwind CSS, React",
+    description: "A personal AI Assitant running with the power of Gemini that can see your screen and answer accordingly",
+    image: "/image/luma.png",
+    video: "blog.mp4",
+    link: "https://github.com/preetbiswas12/luma/releases/tag/1.0.0",
+  },
+    {
+    title: "Quide",
+    category: "Personal Coder",
+    features: "React, Electron, Vite, Tailwind CSS, Typescript",
+    description: "A personal coder assistant that is not effected by sandboxing of webapps and also applications tunning in laptop/PC and evaluates and give runnable code to crack your job",
+    image: "/image/quide.png",
+    video: "blog.mp4",
+    link: "https://quide.vercel.app",
   },
 ];
 
@@ -137,3 +155,5 @@ const Work = () => {
 };
 
 export default Work;
+
+        

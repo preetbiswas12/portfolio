@@ -10,6 +10,7 @@
   margin: auto;
   margin-bottom: 250px;
   padding: 120px 0px;
+  z-index: 2;
 }
 
 .career-section h2 {
@@ -38,7 +39,7 @@
 .career-info-box {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .career-info-box p {
   width: 40%;
@@ -170,7 +171,7 @@
   .career-info-box {
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
   }
   .career-info-in,
   .career-info-box p {

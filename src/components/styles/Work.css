@@ -1,16 +1,20 @@
 .work-section h2 {
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 70px;
   font-weight: 500;
+  margin-bottom: 50px;
 }
 .work-section h2 > span {
   color: var(--accentColor);
 }
 .work-section {
   transition: 0s;
-  height: 100vh;
+  min-height: auto;
   box-sizing: border-box;
   will-change: transform;
+  position: relative;
+  z-index: 1;
+  padding: 80px 0;
 }
 .work-container {
   margin: auto;
@@ -18,24 +22,25 @@
   flex-direction: column;
   height: 100%;
   align-content: stretch;
+  margin-bottom: 150px;
 }
 .work-flex {
   width: 100%;
   display: flex;
-  height: 100%;
+  height: auto;
   margin-left: -80px;
   padding-right: 120px;
   position: relative;
 }
 .work-box {
-  padding: 80px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   width: 600px;
   box-sizing: border-box;
   border-right: 1px solid #363636;
   flex-shrink: 0;
-  gap: 50px;
+  gap: 30px;
   justify-content: start;
 }
 .work-flex .work-box:nth-child(even) {
@@ -127,7 +132,7 @@
 }
 .work-image img {
   max-width: 100%;
-  max-height: 350px;
+  max-height: 280px;
 }
 .work-visit-link {
   display: inline-flex;
@@ -155,16 +160,16 @@
 
 @media only screen and (max-height: 900px) {
   .work-image img {
-    max-height: 250px;
+    max-height: 200px;
   }
   .work-box {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px;
+    gap: 20px;
   }
   .work-section h2 {
     font-size: 60px;
     margin-bottom: 30px;
-    margin-top: 70px;
+    margin-top: 40px;
   }
 }
 @media only screen and (max-width: 1400px) {
@@ -179,7 +184,8 @@
   }
   .work-box {
     width: 450px;
-    padding: 50px;
+    padding: 40px;
+    gap: 25px;
   }
   .work-flex {
     margin-left: -50px;
@@ -189,10 +195,11 @@
     font-size: 50px;
   }
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1200px) {
   .work-box {
     width: 350px;
     padding: 30px;
+    gap: 20px;
   }
   .work-flex {
     margin-left: -30px;
@@ -202,19 +209,20 @@
 
 @media only screen and (max-height: 650px) {
   .work-image img {
-    max-height: 200px;
+    max-height: 150px;
   }
   .work-section h2 {
     font-size: 40px;
     margin-bottom: 20px;
   }
   .work-box {
-    gap: 20px;
+    gap: 15px;
+    padding: 25px;
   }
 }
- @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .work-image img {
-    max-height: 200px;
+    max-height: 180px;
   }
   .work-section h2 {
     font-size: 40px;
@@ -222,6 +230,7 @@
   }
   .work-box {
     gap: 20px;
+    padding: 30px;
   }
 }
 @media only screen and (max-width: 1025px) {

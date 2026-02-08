@@ -2,7 +2,12 @@
   margin-top: 50px;
   font-size: 70px;
   font-weight: 500;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 20;
+  padding: 0 80px;
+  box-sizing: border-box;
+  text-align: center;
 }
 .work-section h2 > span {
   color: var(--accentColor);
@@ -14,34 +19,47 @@
   will-change: transform;
   position: relative;
   z-index: 1;
-  padding: 80px 0;
+  padding: 0 0;
+  overflow: hidden;
+  background: transparent;
 }
 .work-container {
   margin: auto;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: auto;
   align-content: stretch;
   margin-bottom: 150px;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  box-sizing: border-box;
 }
 .work-flex {
   width: 100%;
   display: flex;
   height: auto;
-  margin-left: -80px;
-  padding-right: 120px;
+  margin-left: 0;
+  padding: 40px 20px 40px 160px;
   position: relative;
+  overflow: visible;
+  filter: drop-shadow(0 0 0 transparent);
+  transform-origin: top left;
 }
 .work-box {
-  padding: 50px;
+  padding: 30px 40px;
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 700px;
   box-sizing: border-box;
   border-right: 1px solid #363636;
   flex-shrink: 0;
-  gap: 30px;
-  justify-content: start;
+  gap: 15px;
+  justify-content: flex-start;
+  height: auto;
 }
 .work-flex .work-box:nth-child(even) {
   flex-direction: column-reverse;
@@ -49,16 +67,17 @@
 .work-flex::before,
 .work-flex::after {
   content: "";
-  width: calc(50000vw);
+  width: 200%;
   height: 1px;
   background-color: #363636;
   position: absolute;
-  left: 50%;
+  left: 0;
   top: 0;
-  transform: translateX(-50%);
+  right: 0;
 }
 .work-flex::after {
-  top: 100%;
+  top: auto;
+  bottom: 0;
 }
 .work-title {
   justify-content: space-between;
@@ -68,6 +87,12 @@
 }
 .work-title > div {
   text-align: right;
+}
+.work-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
 }
 .work-title h3 {
   font-size: 50px;
@@ -80,15 +105,20 @@
   font-size: 18px;
   font-weight: 400;
   margin: 0;
+  margin-top: 15px;
+  word-wrap: break-word;
 }
 .work-info p {
   font-weight: 200;
   color: #adacac;
   margin: 0;
   margin-top: 3px;
+  word-wrap: break-word;
+  line-height: 1.5;
 }
 .work-info > p {
   width: 90%;
+  word-wrap: break-word;
 }
 .work-image {
   display: flex;
@@ -163,13 +193,19 @@
     max-height: 200px;
   }
   .work-box {
-    padding: 40px;
-    gap: 20px;
+    padding: 30px 35px;
+    gap: 15px;
+    height: auto;
   }
   .work-section h2 {
     font-size: 60px;
     margin-bottom: 30px;
     margin-top: 40px;
+    padding: 0 80px;
+  }
+  .work-flex {
+    margin-left: 0;
+    padding: 40px 15px 40px 120px;
   }
 }
 @media only screen and (max-width: 1400px) {
@@ -183,29 +219,50 @@
     font-size: 15px;
   }
   .work-box {
-    width: 450px;
-    padding: 40px;
-    gap: 25px;
+    width: 500px;
+    padding: 30px 40px;
+    gap: 15px;
+    height: auto;
   }
   .work-flex {
-    margin-left: -50px;
-    padding-right: 75px;
+    margin-left: 0;
+    padding-right: 0;
   }
   .work-section h2 {
     font-size: 50px;
+    padding: 0 60px;
+  }
+  .work-flex {
+    margin-left: 0;
+    padding: 40px 15px 40px 100px;
+  }
+  .work-container {
+    padding: 0;
   }
 }
 @media only screen and (max-width: 1200px) {
   .work-box {
-    width: 350px;
-    padding: 30px;
-    gap: 20px;
+    width: 400px;
+    padding: 25px 30px;
+    gap: 15px;
+    height: auto;
   }
   .work-flex {
-    margin-left: -30px;
-    padding-right: 45px;
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .work-container {
+    padding: 0;
+  }
+  .work-section h2 {
+    padding: 0 50px;
+  }
+  .work-flex {
+    margin-left: 0;
+    padding: 40px 10px 40px 80px;
   }
 }
+
 
 @media only screen and (max-height: 650px) {
   .work-image img {
@@ -214,10 +271,16 @@
   .work-section h2 {
     font-size: 40px;
     margin-bottom: 20px;
+    padding: 0 40px;
   }
   .work-box {
-    gap: 15px;
-    padding: 25px;
+    gap: 12px;
+    padding: 20px 25px;
+    height: auto;
+  }
+  .work-flex {
+    margin-left: 0;
+    padding: 30px 10px 30px 80px;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -227,10 +290,21 @@
   .work-section h2 {
     font-size: 40px;
     margin-bottom: 20px;
+    padding: 0 40px;
   }
   .work-box {
-    gap: 20px;
-    padding: 30px;
+    gap: 15px;
+    padding: 20px 25px;
+    width: 100%;
+    border-right: none;
+    height: auto;
+  }
+  .work-container {
+    padding: 0;
+  }
+  .work-flex {
+    margin-left: 0;
+    padding-right: 0;
   }
 }
 @media only screen and (max-width: 1025px) {

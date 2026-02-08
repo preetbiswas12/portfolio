@@ -9,14 +9,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "FuturEd",
-    category: "Web Development",
-    features: "React, TypeScript, Framer Motion, Tailwind CSS",
+    title: "Octatecode",
+    category: "Software Application",
+    features: "",
     description:
-      "FuturEd is a educational platform powered by AI that cuts your daily YouTube search and gives you content to learn anything.",
-    image: "/image/futured.png",
+      "Octatecode is a educational platform powered by AI that cuts your daily YouTube search and gives you content to learn anything.",
+    image: "/image/octatecode.png",
     video: "portfolio.mp4",
-    link: "https://futured-home-page.vercel.app/",
+    link: "https://octatecode.vercel.app/",
   },
   {
     title: "Zenith AI",
@@ -81,16 +81,16 @@ const Work = () => {
       const padding: number =
         parseInt(window.getComputedStyle(box[0]).padding) / 2;
       translateX =
-        rect.width * box.length - (rectLeft + parentWidth) + padding;
+        rect.width * box.length - (rectLeft + parentWidth) + padding + 200;
     };
 
     setTranslateX();
 
     const timeline = gsap.timeline({
       scrollTrigger: {
-        trigger: ".work-section",
-        start: "top top",
-        end: "bottom top",
+        trigger: ".work-container",
+        start: "center center",
+        end: "bottom center",
         scrub: true,
         pin: true,
         pinType: !ScrollTrigger.isTouch ? "transform" : "fixed",
@@ -100,7 +100,7 @@ const Work = () => {
 
     timeline.to(".work-flex", {
       x: -translateX,
-      duration: 40,
+      duration: 70,
       delay: 0.2,
     });
 

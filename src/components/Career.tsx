@@ -69,8 +69,8 @@ const Career = () => {
               <h3>2024-2025</h3>
             </div>
             <p>
-              Quide is a AI powered chatbot which is powered by Gemini and also has the function of reading screens which helps users to get the information about the screen they are on and also helps them to navigate through the screen with the help of AI. It is a very useful tool for people who are visually impaired and also for people who want to get the information about the screen they are on without having to read the screen.
-              </p>
+            Being a core member of Designix and Graphex, the design and development clubs of Galgotias University, I actively contributed to various projects and initiatives. I collaborated with fellow members to create innovative designs and develop applications, enhancing my skills in both design and development. This experience allowed me to work on real-world projects and gain valuable insights into the frontend and Figma designs.
+            </p>
           </div>
         </div>
       </div>

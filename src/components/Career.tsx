@@ -12,10 +12,47 @@ const Career = () => {
           <div className="career-timeline">
             <div className="career-dot"></div>
           </div>
+
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4> Developing Octatecode</h4>
+                <h4> Co Founder and CTO</h4>
+                <h5>MindSync</h5>
+              </div>
+              <h3>2026</h3>
+            </div>
+            <p>
+            At MindSync, we bridge the communiation gap between normal people and the people who are suffering from neural or speech disorders. We are conneecting the Brain Stimulus of the people to AI to make them able to speak and take actions or control things directly through their Brain.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4> Building Veill</h4>
+                <h5>Veill</h5>
+              </div>
+              <h3>2026</h3>
+            </div>
+            <p>
+            Veill is a privacy first serverless messaging application which stores data in the user's device and not on a standalone server. Even the app itself dont have any logs or clue of data what the user's are communicating and with its security hash having a double binary AES with a 256 bit encryption and a 512 bit hash makes it more secure.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4> Building Orchestral</h4>
+                <h5>Orchestral</h5>
+              </div>
+              <h3>2026</h3>
+            </div>
+            <p>
+            Orchestral is a alternate and advanced version of Claude Cowork. As its name suggest it has 8 seperate claude code forks joing in a round table conversation and generating the most accurate output to the user to simulate the user's Laptop or PC
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4> Developed Octatecode</h4>
                 <h5>Octatecode</h5>
               </div>
               <h3>2026</h3>

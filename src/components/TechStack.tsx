@@ -65,9 +65,9 @@ const TechStack = () => {
           data-delay="0.1s"
         >
           <div className="box-content">
-            <span className="box-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently building a custom ai assistant <br/>&nbsp;&nbsp;&nbsp;using Electron JS named</span>
+            <span className="box-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently building a private messaging app <br/>&nbsp;&nbsp;&nbsp;using React Native named</span>
             <h3 className="box-title">
-              Cypher
+              Veill
             </h3>
           </div>
           <img

@@ -9,14 +9,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "Octatecode",
-    category: "Software Application",
-    features: "",
+    title: "Veill",
+    category: "Mobile Application",
+    features: "Android Native, React Native, Tailwind CSS, Firebase, AES 256 bit encryption",
     description:
-      "Octatecode is a educational platform powered by AI that cuts your daily YouTube search and gives you content to learn anything.",
-    image: "/image/octatecode.png",
+      "Veill is a privacy first serverless messaging application which stores data in the user's device and not on a standalone server.",
+    image: "/image/veill.png",
     video: "portfolio.mp4",
-    link: "https://octatecode.vercel.app/",
+    link: "https://github.com/preetbiswas12/quidec_capacitor",
   },
   {
     title: "Zenith AI",
@@ -45,14 +45,14 @@ const projects = [
     description: "A personal stunning 3D portfolio showcasing my work and skills.",
     image: "/image/portfolio.png",
     video: "blog.mp4",
-    link: "https://preetbiswas.vercel.app",
+    link: "https://preet-biswas.vercel.app",
   },
     {
     title: "Luma",
     category: "Software Application",
     features: "Electron, Vite, Typescript, Tailwind CSS, React",
     description: "A personal AI Assitant running with the power of Gemini that can see your screen and answer accordingly",
-    image: "/image/luma.png",
+    image: "/image/quide.png",
     video: "blog.mp4",
     link: "https://github.com/preetbiswas12/luma/releases/tag/1.0.0",
   },
@@ -61,7 +61,7 @@ const projects = [
     category: "Personal Coder",
     features: "React, Electron, Vite, Tailwind CSS, Typescript",
     description: "A personal coder assistant that is not effected by sandboxing of webapps and also applications tunning in laptop/PC and evaluates and give runnable code to crack your job",
-    image: "/image/quide.png",
+    image: "/image/luma.png",
     video: "blog.mp4",
     link: "https://quide.vercel.app",
   },
